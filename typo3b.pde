@@ -3,8 +3,7 @@ Fry, Ben. “Mapping.” In Visualizing Data: Exploring and Explaining Data with
 
 
 
-el objetivo es crear una letra "y" utilizando datos de un archivo adjunto y del tiempo en segundos 
-generado por el computador 
+el objetivo es crear una letra "y" utilizando datos de un archivo en formato .tsv 
 */
 
 
