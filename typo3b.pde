@@ -1,6 +1,6 @@
 /* codigo original está en: 
-Fry, Ben. Visualizing Data: Exploring and Explaining Data with the Processing Environment. 
-1 edition. Sebastopol, CA: O’Reilly Media, 2008.
+Fry, Ben. “Mapping.” In Visualizing Data: Exploring and Explaining Data with the Processing Environment, 1 edition. Sebastopol, CA: O’Reilly Media, 2008.
+
 
 
 el objetivo es crear una letra "y" utilizando datos de un archivo adjunto y del tiempo en segundos 
