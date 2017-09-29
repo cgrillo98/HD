@@ -1,18 +1,16 @@
-
-//clase de tipo tabla con los datos organizados por columnas y filas
-
-
-
+//clase Tabla con secuencias de caracteres organizados por columnas y filas en una tabla
+//y hay un entero para contar las filas
 class Table {
   String[][] data;
   int rowCount;
   
   //se crea una tabla con una variable data que tiene secuencias de caracteres (string) en grupos de variables []
-      Table() {
+  Table() {
     data = new String[10][10];
   }
 
-  
+
+  //método para leer la información de la tabla creo
   Table(String filename) {
     String[] rows = loadStrings(filename);
     data = new String[rows.length][];
@@ -44,8 +42,7 @@ class Table {
     return rowCount;
   }
   
-  
-  // find a row by its name, returns -1 if no row found
+  //busca la fila por su nombre y retorna -1 si no la encuentra
   int getRowIndex(String name) {
     for (int i = 0; i < rowCount; i++) {
       if (data[i][0].equals(name)) {
@@ -130,7 +127,7 @@ class Table {
   }
   
   
-  // Write this table as a TSV file
+// construye la tabla
   void write(PrintWriter writer) {
     for (int i = 0; i < rowCount; i++) {
       for (int j = 0; j < data[i].length; j++) {
@@ -146,3 +143,4 @@ class Table {
     writer.flush();
   }
 }
+
